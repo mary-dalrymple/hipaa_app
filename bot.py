@@ -5,6 +5,7 @@ from slack.errors import SlackApiError
 client = WebClient()
 
 slack_token = os.environ["SLACK_API_TOKEN"]
+# print(slack_token)
 client = WebClient(token=slack_token)
 
 try:
